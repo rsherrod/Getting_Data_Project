@@ -70,7 +70,5 @@ tidy_dataset2<- tidy_dataset2[,lapply(.SD,mean),by="Subjects,Activity"]
 tidy_dataset2<- tidy_dataset2[order(tidy_dataset2$Subjects),]
 
 #output csv file to working directory
-write.csv(tidy_dataset2,"Tidy_Data.csv",row.names=F)
-list.files()
+write.csv(tidy_dataset2,"./github/Getting_data_Project/Tidy_Data.csv",row.names=F)
 
-x <- names(tidy_dataset2)

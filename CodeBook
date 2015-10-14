@@ -1,4 +1,4 @@
-The original data for this projects come from: 
+##The original data for this projects come from: 
 
 ===================================================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -20,13 +20,13 @@ Notes:
 - The gyroscope units are rad/seg.
 - A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: http://www.youtube.com/watch?v=XOEN9W05_4A
 
-Features and Activities data sets have been combine along with Test/Training data sets to create a single file
+###Features and Activities data sets have been combine along with Test/Training data sets to create a single file
 
-Names of Activities have been cleaned up to make it easy to understand
+###Names of Activities have been cleaned up to make it easy to understand
 
-Finally a tidy data set with the average of each variable for each activity and each subject was created 
+###Finally a tidy data set with the average of each variable for each activity and each subject was created 
 
-The tidy data set has the following variables:
+###The tidy data set has the following variables:
 
  "Subjects"                      "Activity"                      "tBodyAcc_mean_X"              
  "tBodyAcc_mean_Y"               "tBodyAcc_mean_Z"               "tBodyAcc_std_X"               
